@@ -1,5 +1,5 @@
 class String
-  define_method(:palindrome) do
+  define_method(:palindrome?) do
     word_array = self.split("")
     reversed_array = []
     self.length.times do
